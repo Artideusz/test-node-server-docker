@@ -1,6 +1,6 @@
 # My test node server
 
-This is my test node server that shows how applications are made. You can make your own image using the `docker build` command.
+This is my test node server that shows how applications are made using Docker. You can make your own image using the `docker build` command.
 
 ## What does it do?
 
