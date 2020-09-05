@@ -8,4 +8,6 @@ RUN npm install
 
 EXPOSE 8080
 
+USER node
+
 ENTRYPOINT ["node","/opt/node-server/index.js"]
