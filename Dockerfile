@@ -1,8 +1,10 @@
-FROM archlinux
-
-RUN pacman --noconfirm -Syu && pacman --noconfirm -S nodejs npm 
+FROM node:14.9
 
 COPY ./src/ /opt/node-server
+
+WORKDIR /opt/node-server
+
+RUN npm install
 
 EXPOSE 8080
 
